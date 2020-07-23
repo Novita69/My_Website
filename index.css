@@ -1,0 +1,70 @@
+/* RESET CSS (JANGAN DIHAPUS) */
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, 
+p, form, input, div {
+    margin: 0;
+    padding:0;
+}
+
+
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 5px 20px;
+}
+
+.header-logo {
+    /* background-color:blueviolet; */
+    float:left;
+    padding: 23.5px 40px;
+    font-size: 36px;
+}
+
+.header-list {
+    float:left;
+    padding: 33px 0px;
+}
+
+.header {
+    background-color: darkkhaki;
+    color:white;
+    height: 90px;
+}
+
+.main {
+    background-color: darkolivegreen;
+    height:600px;
+    padding: 20px 40px;
+}
+
+.footer {
+    background-color: dimgrey;
+    height: 100px;
+    padding: 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;  
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+    float: none;
+}
+
+.copyright-style {
+    /* font-size: 10px; */
+    color: white;
+    padding-bottom: 10px 0px;
+    /* background-color: yellow; */
+    margin-top: 110px;
+}
